@@ -1,0 +1,58 @@
+body{
+    background-image:url("../images/Green\ White\ Minimalist\ Landscape\ Desktop\ Wallpaper.png");
+    background-size:cover;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+input {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 cornflowerblue;
+  }
+  
+button{
+    height:35px;
+    width: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #3e6ed6,rgb(255, 255, 255));
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5%;
+    margin-left: 32.5%;
+    border-radius: 50px;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#a1c4fd,#c2e9fb);
+    padding: 5%;
+    height: max-content;
+    width: max-content;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/LeagueSpartan-ExtraBold.ttf");
+}
+.title{
+    display: flex;
+    margin-top: 15%;
+    text-align: center;
+    font-family: "myfont";
+    font-size: 100px;
+    letter-spacing:40px;
+}
